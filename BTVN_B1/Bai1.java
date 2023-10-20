@@ -1,4 +1,4 @@
-package BTVN;
+package BTVN_B1;
 import java.util.Scanner ;
 public class Bai1 {
     public static int gcd(int a , int b)
