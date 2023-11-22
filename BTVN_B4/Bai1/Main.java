@@ -66,8 +66,7 @@ public class Main {
                     System.out.print("Nhập Tên Cuốn Sách Cần Tìm Kiếm : ");
                     String findBook = sc.nextLine();
                     boolean find = false;
-                    for (Sach sach
-                            : list) {
+                    for (Sach sach : list) {
                         if (sach.getTenSach().contains(findBook)) {
                             sach.output();
                             find = true;
@@ -84,7 +83,7 @@ public class Main {
                     for (Sach sach : list) {
                         sach.output();
                     }
-                    System.out.println("Đã Sắp Xếp Sách Theo Tên Tác Giả");
+                    System.out.println("Đã Sắp Xếp Sách The7o Tên Tác Giả");
                     break;
                 case 5:
                     System.exit(0);

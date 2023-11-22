@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static int MAXN = 1000000;
-
+    // Ham nay dung de hien thi menu
     public static void Menu() {
         System.out.println("1. Nhap Mot Loai Rau Cu Moi");
         System.out.println("2. Hien Thi Danh Sach Rau Cu");
